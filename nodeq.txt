@@ -1,0 +1,39 @@
+1)what is node js? what is open source cross platform?
+node js is a open source cross platform run time environment.It allows the Javascript to run outside the browser.
+Open-source-cross platform means running on different programming environment,operating system.
+
+2)what is blocking vs non blocking?
+blocking-it means it will run block the javascript code until the other code finishes.it executes synchronously.
+nonblocking-it does not block code of javascript or other it executes without any interruptions.it executes asynchronously.
+
+3)what is NPM?
+Node Package Manager.it is a software library and installer.it includes CLI used to download and install software.it manages dependency.it can install dependency.
+
+4)what are the modules in Node.js?
+it is like set of functions you can use in code.built-in modules-this modules are built-in no vary to use installation like require().We can build our own modules.
+
+5)What is Export,Import,Require Keyword?
+export-we can send one external file to our main file like using {module.exports=nameof file}
+import-as we export our file from one place to another import is like accepting that export file.
+require-by using require keyword we can use built-in/outside modules to use them in our code.
+
+6)what is the purpose of module.exports?
+To send the outside file to any of the main file and can import them by using require keyword.
+
+7)Differnece between default export and named export?
+default export-it is like sending file from one place to another but only single file can send
+named export-here you can send multiple names like in this brackets{} at a time.
+
+8)How do you import a file in Nodejs?
+By using import fnname=require('./filepath') it will import fnname to your main file and then we can use the fnname.
+
+9)Difference between HTTP and HTTPS?
+HTTP- HyperText Transfer Protocol.it is not secure.it does not use SSL
+HTTPS- HyperText Transfer Protocol Secure.it is secure.it uses SSL which encrypt the information.
+
+10)What is Express,how it helps to create a backend application,adavantages of using express?
+express is a framework that adds more functionality than node to our app.we can use this framework in our app.it has functionalities like cors,cookieparser and much more.
+advantages-routing,middleware.
+
+11)What are different types of HTTP requests?
+there are four types of HTTP requests 1)GET-we can read the data 2)POST-we can create the data 3)PUT-we can update the data 4)DELETE-we can delete the data.
